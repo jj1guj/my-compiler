@@ -1,5 +1,8 @@
 {
     "github.copilot.enable": {
         "*": false
-    }
+    },
+    "clangd.arguments": [
+        "--compile-commands-dir=${WorkSpaceFolder}"
+    ]
 }
